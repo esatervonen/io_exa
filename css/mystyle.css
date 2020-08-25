@@ -2,11 +2,29 @@
     background-color: lightblue;
 }
 #menu {
-    background-color: orange;    
+    background-color: orange;
+    float: left;
+    width: 150px;
+    height: 100%;
+    font-size: 20px;    
+}
+#menu ul li {
+    list-style: none;    
+}
+#menu ul li a {
+    text-decoration: none;
+}
+#menu ul li a:hover {
+    background-color: greenyellow;
 }
 #content {
     background-color: white;
+    margin-left: 160px;
 }
 #footer {    
     background-color: gray;
 }
+html, body {
+	  height: 100%;
+	  width: 100%;
+	}
